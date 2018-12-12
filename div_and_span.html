@@ -2,16 +2,47 @@
 <html>
     <head>
         <title>DIVs and SPANs</title>
+        <style>
+            div{
+                text-align: center;
+            }
+            #top{
+                font-size: 36px;
+            }
+            #middle{
+                font-size: 24px;
+            }
+            #bottom{
+                font-size; 12px;
+            }
+            .name{
+                background-color: burlywood;
+                font-weight: bold;
+            }
+            button:hover{
+                background-color: coral;
+            }
+            button{
+                color: aquamarine;
+            }
+            
+        </style>
+        
+
     </head>
     <body>
         <div id="top">
-            This is TOP div.
+            This is <span class="name">TOP</span> div.
         </div>
         <div id="middle">
-            This is MIDDLE div.
+            This is <span class="name">MIDDLE</span> div.
         </div>
         <div id="bottom">
-            This is BOTTOM div.
+            This is <span class="name">BOTTOM</span> div.
+            <form>
+                <input type="text" placeholder="Placeholder" neme="name">
+                <button>Click me!</button>
+            </form>
         </div>
     </body>
 
